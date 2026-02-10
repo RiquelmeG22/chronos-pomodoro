@@ -5,6 +5,8 @@ import { MainTemplete } from "../../templetes/MainTemplete";
 
 
 export function Home() {
+
+
     return (
         <MainTemplete>
             < Container>
@@ -14,7 +16,6 @@ export function Home() {
             < Container>
                 < MainForm />
             </Container>
-
         </MainTemplete>
     );
 }
